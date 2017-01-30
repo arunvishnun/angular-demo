@@ -1,0 +1,26 @@
+{
+  "name": "angular-demo",
+  "description": "Simple angular app",
+  "main": "index.js",
+  "authors": [
+    "Arun"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular"
+  ],
+  "homepage": "https://github.com/arunvishun/angular-demo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.1"
+  }
+}
