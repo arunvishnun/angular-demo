@@ -1,0 +1,27 @@
+{
+  "name": "angular-demo",
+  "version": "1.0.0",
+  "description": "Simple angular app",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunvishun/angular-demo.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Arun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arunvishun/angular-demo/issues"
+  },
+  "homepage": "https://github.com/arunvishun/angular-demo#readme"
+}

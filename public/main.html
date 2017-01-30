@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo APP</title>
+		<base href="/" />
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="src/bootstrap-custom-theme.min.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+				   
+		    <div class="navbar-header">
+		    	<a class="navbar-brand" href="#"><b>Demo App</b> <span class="span-style">Movie Browser</span></a>
+		    </div>
+			   
+		</nav>
+		<div class="container-fluid"  ng-app="DemoApp">
+			
+			<div class="row-fluid">
+				<div class="col-md-12" ng-controller="ListController"></div>
+				<input type="text" ng-model="search" placeholder="Enter full movie name" />
+			</div>
+			
+			<div id="main-info" ng-include="'views/info.html'"></div>
+
+			<div id="related-results" ng-include="'views/results.html'"></div>
+		
+		</div>
+
+		<script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="lib/angular/angular.min.js"></script>
+		<script type="text/javascript" src="lib/angular-route/angular-route.min.js"></script>
+		<script type="text/javascript" src="src/app.js"></script>
+		<script type="text/javascript" src="src/controller.js"></script>
+	</body>
+</html>
+
+
